@@ -1,6 +1,8 @@
 # Bloco de Notas com Streamlit
 
 Este projeto é uma aplicação de bloco de notas construída com Streamlit, seguindo a arquitetura limpa (Clean Architecture).
+Acesso: https://lsc-notebook-app.streamlit.app/ 
+
 
 ## Estrutura do Projeto
 
