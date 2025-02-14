@@ -9,6 +9,11 @@ Acesso: https://lsc-notebook-app.streamlit.app/
 ```plaintext
 notebook_app/
 │
+├── auth/
+│   └── user_auth.py
+│
+│── data/
+│
 ├── entities/
 │   └── note.py
 │
@@ -24,7 +29,7 @@ notebook_app/
 │   ├── load_notes.py
 │   └── update_note.py
 │
-└── notes.json
+└── .gitignore
 ```
 
 ## Descrição dos Arquivos
