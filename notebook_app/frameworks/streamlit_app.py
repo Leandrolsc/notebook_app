@@ -1,13 +1,12 @@
 import streamlit as st
 import sys
 import os
-from user_auth import UserAuth
 
 
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-
+from auth.user_auth import UserAuth
 from interface_adapters.repositories import NoteRepository
 from use_cases.add_note import AddNoteUseCase
 from use_cases.delete_note import DeleteNoteUseCase

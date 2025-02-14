@@ -4,7 +4,7 @@ import json
 import os
 import bcrypt
 
-USER_DATA_FILE = "notebook_app/users/users.json"
+USER_DATA_FILE = "./notebook_app/auth/users.json"
 
 class UserAuth:
     def __init__(self):
