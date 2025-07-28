@@ -14,6 +14,10 @@ from use_cases.update_note import UpdateNoteUseCase
 from use_cases.load_notes import LoadNotesUseCase
 from use_cases.calculate_compound_interest import CalculateCompoundInterestUseCase
 
+st.set_page_config(
+    page_title="Bloco de notas Streamlit")
+
+
 
 def main_app():
         
